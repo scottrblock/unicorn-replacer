@@ -31,12 +31,12 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bMillennial\b/g, "Pesky Whipper-Snapper");
-	v = v.replace(/\bmillennial\b/g, "pesky whipper-snapper");
-	v = v.replace(/\bMillennials\b/g, "Pesky Whipper-Snappers");
-	v = v.replace(/\bmillennials\b/g, "pesky whipper-snappers");
-	v = v.replace(/\bMILLENNIAL\b/g, "PESKY WHIPPER-SNAPPER");
-	v = v.replace(/\bMILLENNIALS\b/g, "PESKY WHIPPER-SNAPPERS");
+	v = v.replace(/\bUnicorn\b/g, "Pre-IPO startup valued at $1 billion or more");
+	v = v.replace(/\bunicorn\b/g, "pre-IPO startup valued at $1 billion or more");
+	v = v.replace(/\bUnicorns\b/g, "Pre-IPO startups valued at $1 billion or more");
+	v = v.replace(/\bunicorns\b/g, "pre-IPO startups valued at $1 billion or more");
+	v = v.replace(/\bUNICORN\b/g, "PRE-IPO STARTUP VALUED AT $1 BILLION OR MORE");
+	v = v.replace(/\bUNICORNS\b/g, "PRE-IPO STARTUPS VALUED AT $1 BILLION OR MORE");
 	
 	textNode.nodeValue = v;
 }
