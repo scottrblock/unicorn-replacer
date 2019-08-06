@@ -1,4 +1,4 @@
-millennials-begone
+unicorn-replacer
 =============
 
 Chrome extension that replaces occurrences of 'unicorn' with 'pre-IPO startup valued at $1 billion or more'.
